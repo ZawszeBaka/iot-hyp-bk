@@ -26,5 +26,10 @@ router.get('/register', function(req, res, next) {
     res.render('register', {  }); // index.hbs file is rendered
 });
 
+router.get('/icons', function(req, res, next) {
+    res.render('icons', {  }); // index.hbs file is rendered
+});
+
+
 
 module.exports = router;
